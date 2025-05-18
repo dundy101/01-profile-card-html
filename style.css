@@ -1,0 +1,62 @@
+/* Set the background color of the entire page to light blue and apply the Roboto font */
+body {
+  background-color: #add8e6;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+/* Style the profile card container */
+.profile-card {
+  background: #fff; /* White background for the card */
+  border: 1px solid #ccc; /* Light gray border around the card */
+  border-radius: 16px; /* Rounded corners */
+  max-width: 500px; /* Maximum width of the card */
+  margin: 60px auto; /* Center the card horizontally and add space at the top */
+  padding: 2rem 2.5rem; /* Space inside the card (top/bottom, left/right) */
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08); /* Subtle shadow for depth */
+  text-align: center; /* Center text inside the card */
+}
+
+/* Center the main heading and subheading */
+h1, h2 {
+  text-align: center;
+}
+
+/* Style the main heading */
+h1 {
+  font-size: 3rem; /* Large font size */
+  color: #003366;  /* Dark blue color */
+}
+
+/* Style the subheading */
+h2 {
+  font-size: 2rem;   /* Slightly smaller than h1 */
+  color: #333333;    /* Dark gray color */
+}
+
+/* Style the paragraph text */
+p {
+  font-size: 1.2rem;   /* Slightly larger than default text */
+  line-height: 1.6;    /* More space between lines for readability */
+}
+
+ul {
+  list-style: none;           /* Remove bullet points */
+  padding: 0;                 /* Remove default padding */
+  margin: 1rem 0 0 0;         /* Add some space above, remove left margin */
+  text-align: center;         /* Center the list items */
+}
+
+ul li {
+  display: inline-block;      /* Display list items in a row */
+  margin: 0 0.5rem;           /* Space between items */
+}
+
+.profile-headshot {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 1.5rem auto;
+  border: 3px solid #003366;
+}
